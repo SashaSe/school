@@ -28,5 +28,5 @@ int main()
     }
     else 
     cout << "wrong number of faults";
-    system("pause")asddas
+    system("pause");
 }
