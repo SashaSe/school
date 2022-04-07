@@ -12,19 +12,19 @@ int main()
         cin >> a;
     }
     switch (a) {
-    case 'A': case 'a':
+    case 'A':
         cout << "Your choice ==> film1";
         break;
-    case 'B': case 'b':
+    case 'B':
         cout << "Your choice ==> film2";
         break;
-    case 'C': case 'c':
+    case 'C':
         cout << "Your choice ==> film3";
         break;
-    case 'D': case 'd':
+    case 'D':
         cout << "Your choice ==> film4";
         break;
-    case 'E': case 'e':
+    case 'E':
         cout << "Your choice ==> film5";
         break;
     default:
