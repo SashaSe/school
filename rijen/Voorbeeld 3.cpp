@@ -5,7 +5,7 @@ using namespace std;
 int sum_calculation(int a,int b) {
     int c;
     c=b+a;
-    cout << c;
+    return c;
 }
 
 int main() {
@@ -14,5 +14,6 @@ int main() {
     cin >> a;
     cout << "Enter second number: ";
     cin >> b;
-    sum_calculation(a,b);
+    c = sum_calculation (a,b);
+    cout << a << " + " << b << " = " << c;
 }
